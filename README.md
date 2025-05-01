@@ -31,11 +31,9 @@ This Python script parses and analyzes Windows Event Logs to assist in threat de
 ## Usage
 
 1. Export Windows Event Logs (`.evtx` files) from the Windows Event Viewer.
-
 2. You can parse an Event Log file with a command like:
-```bash
-python main.py --input "path_to_event_log.evtx" --output "output.csv"
-
+   ```bash
+    python main.py --input "path_to_event_log.evtx" --output "output.csv"
 3. Run the script:
     ```bash
     python3 log_parser.py path_to_log_file.evtx
